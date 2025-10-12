@@ -1,0 +1,20 @@
+# Dependabot configuration file
+
+version: 2
+updates:
+  # Check for updates to GitHub Actions every week
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "devcontainers"
+    directory: "/"
+    schedule:
+      interval: weekly
+
+  # Enable version updates for Docker
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "weekly"

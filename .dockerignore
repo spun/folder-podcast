@@ -1,0 +1,10 @@
+.git/
+.github/
+.devcontainer/
+files/
+.env.dev
+.gitignore
+.dockerignore
+Dockerfile
+README.md
+folder-podcast-app
