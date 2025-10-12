@@ -18,6 +18,7 @@ jobs:
     # Sets the permissions granted to the `GITHUB_TOKEN` for the actions in this job.
     permissions:
       packages: write
+      id-token: write
       attestations: write
 
     steps:
