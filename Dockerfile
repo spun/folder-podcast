@@ -8,7 +8,7 @@ COPY . .
 RUN deno task build
 
 # ===== Production stage =====
-FROM gcr.io/distroless/cc:nonroot@sha256:39db8a6e7ab24face1bd5e935a1785ec335517c141141f3bdcbecff28efded42
+FROM gcr.io/distroless/cc:nonroot@sha256:189bd2ce1f7750193c2c10220d9201ba38c11e30fbb75b036606829fadbc81b1
 # Set working directory
 WORKDIR /app
 # Copy the compiled binary
