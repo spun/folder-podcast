@@ -5,10 +5,10 @@
     "build": "deno compile --allow-read=static,files --allow-env=HOST_IP,HOST_PORT --allow-net=0.0.0.0:8080 --output folder-podcast-app main.ts"
   },
   "imports": {
-    "@oak/oak": "jsr:@oak/oak@^17.1.6",
-    "@libs/xml": "jsr:@libs/xml@^7.0.2",
-    "@std/async": "jsr:@std/async@^1.0.15",
-    "@std/path": "jsr:@std/path@^1.1.2",
+    "@oak/oak": "jsr:@oak/oak@^17.2.0",
+    "@libs/xml": "jsr:@libs/xml@^7.0.3",
+    "@std/async": "jsr:@std/async@^1.2.0",
+    "@std/path": "jsr:@std/path@^1.1.4",
     "@std/media-types": "jsr:@std/media-types@^1.1.0"
   }
 }
