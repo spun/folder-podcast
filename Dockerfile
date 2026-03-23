@@ -1,5 +1,5 @@
 # ===== Build stage =====
-FROM docker.io/denoland/deno:2.7.5@sha256:f35fb70a590a2004fb3a3f7229c56e9026b522753851ccbefc3c1cf2f58c2153 AS builder
+FROM docker.io/denoland/deno:2.7.7@sha256:955798026c6ab497f99111345b25cd47857ef366bf70eed3614deba66bd86d1a AS builder
 # Set working directory
 WORKDIR /app
 # Copy source files
