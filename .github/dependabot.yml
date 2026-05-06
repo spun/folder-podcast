@@ -2,6 +2,12 @@
 
 version: 2
 updates:
+  # Enable version updates for deno
+  - package-ecosystem: "deno"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+
   # Check for updates to GitHub Actions every week
   - package-ecosystem: "github-actions"
     directory: "/"
