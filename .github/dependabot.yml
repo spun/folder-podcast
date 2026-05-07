@@ -3,11 +3,11 @@
 version: 2
 # enable-beta-ecosystems: true
 updates:
-#  # Enable version updates for deno
-#  - package-ecosystem: "deno"
-#    directory: "/"
-#    schedule:
-#      interval: "monthly"
+  # Enable version updates for deno
+  - package-ecosystem: "deno"
+    directory: "/"
+    schedule:
+      interval: "monthly"
 
   # Check for updates to GitHub Actions every week
   - package-ecosystem: "github-actions"
