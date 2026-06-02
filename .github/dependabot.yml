@@ -1,7 +1,6 @@
 # Dependabot configuration file
 
 version: 2
-enable-beta-ecosystems: true
 updates:
   # Enable version updates for deno
   - package-ecosystem: "deno"
